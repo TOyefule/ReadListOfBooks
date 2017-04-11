@@ -110,6 +110,12 @@ public class ReadListOfBooks {
 			System.out.println(book.toString());
 		}
 		
+		//get a random book from the arraylist
+		Random r = new Random();
+		int index = 1 + r.nextInt(books.size()-1);
+		System.out.println("random book:" + books.get(index));
+		
+		
 		
 		
 
